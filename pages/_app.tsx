@@ -20,7 +20,22 @@ function MyApp({Component, pageProps}: AppProps) {
                 </ul>
             </main>
         </header>
-        <Component {...pageProps} />
+        <main className={'layout-main'}>
+            <Component {...pageProps} />
+        </main>
+        <footer className={classNames('layout-footer')}>
+            <main
+                className={classNames('max-w-screen-md', 'md:max-w-screen-xl', 'mx-auto', 'text-center', 'h-20', 'flex', 'items-center', 'justify-center')}>
+                <a
+                    className={'text-brand2'}
+                    href="https://github.com/bytecache"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Powered by ByteCache
+                </a>
+            </main>
+        </footer>
     </>
 }
 

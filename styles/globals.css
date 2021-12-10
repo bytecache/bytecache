@@ -24,6 +24,9 @@ a {
     box-sizing: border-box;
 }
 
-.layout-header {
+.layout-header,.layout-footer {
     background-color: rgba(13, 21, 26, 0.78);
+}
+.layout-main{
+    min-height: calc(100vh - 160px);
 }

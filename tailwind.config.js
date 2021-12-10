@@ -1,6 +1,5 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}'],
-  content: [],
+  content: ['./pages/**/*.{js,ts,jsx,tsx}'],
     theme: {
       colors: {
         brand1: '#B0FBBC',
